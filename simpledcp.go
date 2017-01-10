@@ -2,8 +2,9 @@ package simpledcp
 
 import (
 	"fmt"
-	"github.com/couchbase/gocbcore"
 	"time"
+
+	"gopkg.in/couchbase/gocbcore.v2"
 )
 
 type DcpEventType uint
